@@ -30,7 +30,9 @@ function liveRoom() {
         exit();
     }else{
         // 点击输入
-        // handle.click();
+        handle.click();
+        let comment_text = id("com.kuaishou.nebula:id/editor").findOne(500);
+        comment_text.setText("测试一下");
     }
     // 查找关注按钮
     // let follow_buttone = id("com.kuaishou.nebula.live_audience_plugin:id/live_audience_bottom_bar_follow_avatar").findOne(500);
@@ -42,31 +44,32 @@ function liveRoom() {
     //      follow_buttone.click();
     // }
     // 关注
-    let follow_buttone = id("com.kuaishou.nebula.live_audience_plugin:id/live_audience_bottom_bar_follow_button").findOne(500);
-    if (!follow_buttone) { 
-        toast("关注按钮未找到");
-        exit();
-    }else{
-         // 点击关注
-         let bounds = follow_buttone.bounds();
-         click(bounds.centerX(), bounds.centerY());  
-    }
+    // let follow_buttone = id("com.kuaishou.nebula.live_audience_plugin:id/live_audience_bottom_bar_follow_button").findOne(500);
+    // if (!follow_buttone) { 
+    //     toast("关注按钮未找到");
+    //     exit();
+    // }else{
+    //      // 点击关注
+    //      let bounds = follow_buttone.bounds();
+    //      click(bounds.centerX(), bounds.centerY());  
+    // }
 
     // 购物车
-    let shape_button = id("com.kuaishou.nebula.live_audience_plugin:id/live_shop_icon_shape_view").findOne(500);
-    if (!shape_button) { 
-        toast("购物车按钮未找到");
-        exit();
-    }else{
-         // 点击购物车按钮
-         let bounds = shape_button.bounds();
-         click(bounds.centerX(), bounds.centerY());  
-    }
-      
+    // let shape_button = id("com.kuaishou.nebula.live_audience_plugin:id/live_shop_icon_shape_view").findOne(500);
+    // if (!shape_button) { 
+    //     toast("购物车按钮未找到");
+    //     exit();
+    // }else{
+    //      // 点击购物车按钮
+    //      let bounds = shape_button.bounds();
+    //      click(bounds.centerX(), bounds.centerY());  
+    // }
+    
+    
 }
 
 
 
-// 执行分屏调整
+// 直播间
 liveRoom();
 sleep(1000); // 等待2秒

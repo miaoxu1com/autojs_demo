@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "14"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "AN2FUT1923003354"
+    },
+    {
+      "type": "text",
+      "name": "appium:appPackage",
+      "value": "com.kuaishou.nebula"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": "com.yxcorp.gifshow.HomeActivity"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UiAutomator2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "hostname": "127.0.0.1",
+      "port": "4723",
+      "path": "",
+      "host": "127.0.0.1"
+    },
+    "advanced": {},
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "mobitru": {},
+    "tvlabs": {},
+    "testcribe": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
